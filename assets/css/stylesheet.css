@@ -1,0 +1,38 @@
+header {
+    display:inline;
+    flex-flow:row wrap;
+    flex: 0 0 100%;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+}
+
+#highscores {
+
+}
+
+#time {
+
+}
+
+#start {
+
+}
+
+.question {
+
+}
+
+#all-done {
+
+}
+
+#highscore-list {
+
+
+}
+
+
+
