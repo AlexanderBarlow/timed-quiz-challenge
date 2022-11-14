@@ -11,13 +11,10 @@ var choice3 = document.getElementsByClassName('option3');
 var choice4 = document.getElementsByClassName('option4');
 var startButton = document.getElementById('start-button');
 
-var questionForms = [question1, question2, question3, question4, question5];
-var userInput;
 
 
-function questionEval {
-    this.score = 0;
-}
+
+
 
 
 
