@@ -10,35 +10,35 @@
 <body>
     <header>
         <ul>
-            <li id="highscores">
-                View Highscores
+            <li >
+                <a><span href="highscores">View Highscores</span></a>
             </li>
             <li id="time">
                 Time:
             </li>
         </ul>
     </header>
-
-    <section id="start">
+    <main>
+    <section id="start" class="card">
             <h1>Timed Coding Quiz Challenge</h1>
-            <p>Welcome to a time coding quiz. You will be asked 5 questions. You will be given 60 seconds to do so. You can see your time in the top bar as well as view your highscores. Click the button below to begin.</p>
+            <p>Welcome to a time coding quiz. You will be asked 4 questions. You will be given 60 seconds to do so. You can see your time in the top bar as well as view your highscores. Click the button below to begin.</p>
             <button id="start-button" type="button">PRESS TO START</button>
     </section>
 
-    <section id="question">
+    <section id="question-form" class="hide" >
         <form>
-            <h2>
-                Question 1
+            <h2 id="question">
+                 Question One
             </h2>
-            <button id="option1" type="button">Option 1</button>
-            <button id="option2" type="button">Option 2</button>
-            <button id="option3" type="button">Option 3</button>
-            <button id="option4" type="button">Option 4</button>
+            <button class="answer-button" type="button">Option 1</button>
+            <button class="answer-button" type="button">Option 2</button>
+            <button class="answer-button" type="button">Option 3</button>
+            <button class="answer-button" type="button">Option 4</button>
         </form>
 
     </section>
 
-    <section id="all-done">
+    <section id="all-done" class="hide card">
         <form>
             <h2>
                 You are all done!
@@ -47,7 +47,7 @@
         </form>
     </section>
 
-    <section id="highscore-list">
+    <section id="highscore-list" class="hide card">
         <h2>
             Here are your HighScores!
         </h2>
@@ -57,7 +57,7 @@
             </li>
         </ul>
     </section>
-
+</main>
 
     <script src="./assets/js/script.js"></script>
 </body>

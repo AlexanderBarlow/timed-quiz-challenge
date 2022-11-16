@@ -1,59 +1,51 @@
 header {
-    display:inline;
-    flex-flow:row wrap;
-    flex: 0 0 100%;
+    position: absolute;
+    flex: 0 0 50%;
 }
+
+
+main {
+    padding: 0;
+    margin: 0;
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 800px;
+    max-width: 80%;
+    background-color: bisque ;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
 
 ul {
     display: inline;
     list-style-type: none;
 }
 
-#highscores {
-
+.hide {
+    display: none;
 }
 
-#time {
-
-}
-
-#start {
-
-}
-
-#question {
-
-}
-
-#option1{
-
-}
-
-#option2{
-
-}
-
-#option3{
-
-}
-
-#option4{
-
-}
-
-
-#all-done {
-
-}
-
-#highscore-list {
-
-
-}
 
 button {
-
+    background-color: darkblue;
+    color: aliceblue;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    margin: 5px;
 }
 
+button:hover {
+    border-color: black;
 
+}
 
