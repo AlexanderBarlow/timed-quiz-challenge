@@ -5,6 +5,8 @@ var startScreen = document.getElementById('start');
 var timerElement = document.getElementById('time');
 var initialEntry = document.getElementById('all-done');
 var question = document.getElementById('question');
+var highscores = document.getElementById('highscore-list');
+var highscoreInput = document.querySelector('form')
 
 var currentQuestion;
 var correctAnswers = 0;
@@ -79,12 +81,18 @@ function question() {
     }
 }
 
+highscoreInput.addEventListener('submit', highscores());
 
 function gameOver() {
     questionForm.setAttribute('class', 'hide');
     initialEntry.removeAttribute('class', 'hide');
     timeLeft = timer;
     clearInterval(timer);
+}
+
+function highscores() {
+    initialEntry.setAttribute('class', 'hide')
+    highscores.removeAttribute('class', 'hide')
 }
 
 function wrongAnswer () {
