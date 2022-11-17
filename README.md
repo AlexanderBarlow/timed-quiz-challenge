@@ -7,8 +7,9 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-visit the website via this url:
-visit the GitHub repo via this url:
+visit the website via this url: https://alexanderbarlow.github.io/timed-quiz-challenge/
+visit the GitHub repo via this url: https://github.com/AlexanderBarlow/timed-quiz-challenge
+
 
 ## Usage
 
